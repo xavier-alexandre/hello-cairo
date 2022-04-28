@@ -1,6 +1,22 @@
 # Hello Cairo
 
 https://starknet.io/docs/hello_cairo
+https://starknet.io/docs/quickstart.html
+
+## Create Python virtual env
+
+```shell
+python3.7 -m venv ~/cairo_venv
+source ~/cairo_venv/bin/activate
+```
+
+## Properly open VSCode
+
+```shell
+cd hello-starknet
+source ~/cairo_venv/bin/activate
+code .
+```
 
 ## Build
 
